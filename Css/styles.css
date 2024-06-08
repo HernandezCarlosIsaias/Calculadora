@@ -4,7 +4,7 @@ body{
 }
 .calculadora{
     display: grid;
-    background-color: white;
+    background-color:#112435;
     color: black;
     grid-template-columns:repeat(4,auto);
     grid-template-rows: repeat(7,80px);
@@ -12,19 +12,37 @@ body{
 
 #visor{
     grid-column: 1/5;
+    background-color: white;
     grid-row: 1/3;
     font-size: 80px;
     text-align: center;
     line-height: 160px;
+    border-radius: 55px 55px 55px 55px;
+    border: 2px solid #000000;
 }
 
-.teclas, .operador , #igual , #borrar, #borrar_todo,#punto {
-    border: 1px solid black;
+.teclas, .operador , #borrar, #borrar_todo,#punto {
+    border-radius: 55px 55px 55px 55px;
+    border: 2px solid #000000;
     background-color: #0898c5;
     font-size: 30px;
+    color:white;
     text-align: center;
     line-height: 80px;
 }
-.teclas:hover, .operador:hover, #igual:hover, #borrar:hover , #borrar_todo:hover, #punto:hover{
+.teclas:hover, .operador:hover, #borrar:hover , #borrar_todo:hover, #punto:hover{
     background-color: #05dce7;
+}
+#igual{
+    border-radius: 55px 55px 55px 55px;
+    border: 2px solid #000000;
+    background-color: rgb(220, 64, 64);
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    line-height: 80px;
+
+}
+#igual:hover{
+    background-color: rgb(120, 53, 53);
 }
