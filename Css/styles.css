@@ -17,30 +17,33 @@ body{
     font-size: 80px;
     text-align: center;
     line-height: 160px;
-    border-radius: 55px 55px 55px 55px;
+    border-radius: 55px ;
     border: 2px solid #000000;
+    margin:2px ;
 }
 
 .teclas, .operador , #borrar, #borrar_todo,#punto {
-    border-radius: 55px 55px 55px 55px;
-    border: 2px solid #000000;
+    border-radius: 55px;
+    border: 2px solid #f8f3f3;
     background-color: #0898c5;
     font-size: 30px;
     color:white;
     text-align: center;
     line-height: 80px;
+    margin:2px ;
 }
 .teclas:hover, .operador:hover, #borrar:hover , #borrar_todo:hover, #punto:hover{
     background-color: #05dce7;
 }
 #igual{
-    border-radius: 55px 55px 55px 55px;
-    border: 2px solid #000000;
+    border-radius: 55px;
+    border: 2px solid #faf7f7;
     background-color: rgb(220, 64, 64);
     font-size: 30px;
     color:white;
     text-align: center;
     line-height: 80px;
+    margin:2px ;
 
 }
 #igual:hover{
